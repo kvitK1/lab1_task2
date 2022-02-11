@@ -2,7 +2,6 @@
 from argparse import ArgumentParser
 from math import cos, asin, sqrt
 from pandas import DataFrame, read_csv, errors
-
 from folium import Map, features, FeatureGroup, Marker, CircleMarker, Icon, LayerControl
 from geopy.geocoders import Nominatim
 
